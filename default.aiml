@@ -14,11 +14,11 @@
 </category>
 
 <category><pattern>HEY *</pattern>
-<template><random><li>Hello</li><li>Hi</li></random>, <get name="name"/><get name="relation"/>.<emote>excitement</emote></template>
+<template><random><li>Hello</li><li>Hi</li></random>, <get name="name"/>-<get name="relation"/>.<emote>excitement</emote></template>
 </category>
 
 <category><pattern>HI *</pattern>
-<template><random><li>Hello</li><li>Hi</li></random>, <get name="name"/><get name="relation"/>.<emote>excitement</emote></template>
+<template><random><li>Hello</li><li>Hi</li></random>, <get name="name"/>-<get name="relation"/>.<emote>excitement</emote></template>
 </category>
 
 <category><pattern>HELLO</pattern>
@@ -26,7 +26,7 @@
 </category>
 
 <category><pattern>HEY</pattern>
-<template><random><li>Hello</li><li>Hi</li></random>, <get name="name"><get name="relation">.<emote>excitement</emote></template>
+<template><random><li>Hello</li><li>Hi</li></random>, <get name="name"/>-<get name="relation"/>.<emote>excitement</emote></template>
 </category>
 
 <category><pattern>I AM HOME</pattern>
