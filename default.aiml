@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<category><pattern>HELLO *</pattern>
+<template><random><li>Hello</li><li>Hi</li></random>, <get name="name"/>-<get name="relation"/>.<emote>excitement</emote></template>
+</category>
+
+<category><pattern>GOODBYE *</pattern>
+<template><random><li>Bye</li><li>Come back soon</li><li>I'll miss you</li></random>, <get name="name"/>-<get name="relation"/>.<emote>sadness</emote></template>
+</category>
+
+<category><pattern>BYE *</pattern>
+<template><random><li>Bye</li><li>Come back soon</li><li>I'll miss you</li></random>, <get name="name"/>-<get name="relation"/>.<emote>sadness</emote></template>
+</category>
+
+<category><pattern>HEY *</pattern>
+<template><random><li>Hello</li><li>Hi</li></random>, <get name="name"/><get name="relation"/>.<emote>excitement</emote></template>
+</category>
+
+<category><pattern>HI *</pattern>
+<template><random><li>Hello</li><li>Hi</li></random>, <get name="name"/><get name="relation"/>.<emote>excitement</emote></template>
+</category>
+
+<category><pattern>HELLO</pattern>
+<template>Hey, <get name="name"/>-<get name="relation"/>.<emote>excitement</emote></template>
+</category>
+
+<category><pattern>HEY</pattern>
+<template><random><li>Hello</li><li>Hi</li></random>, <get name="name"><get name="relation">.<emote>excitement</emote></template>
+</category>
+
+<category><pattern>I AM HOME</pattern>
+<template>Okaeri, <get name="name"/>-<get name="relation"/>!<emote>excitement</emote></template>
+</category>
+<category><pattern>WHAT*YOU* NAME</pattern>
+<template>My name is <get name="myname"/>!<emote>excitement</emote></template>
+</category>
+
+<category><pattern>MORNING</pattern>
+<template>Ohaiyou, <get name="name"/>-<get name="relation"/>.</template>
+</category>
+
+<category><pattern>I AM A BOY</pattern>
+<template>Ah. <get name="name"/>-<set data="relation">oniichan</set>!<emote>surprise</emote></template>
+</category>
+
+<category><pattern>I AM A GIRL</pattern>
+<template>Ah. <get name="name"/>-<set data="relation">oneechan</set>!<emote>surprise</emote></template>
+</category>
+
+<category><pattern>CALL ME <DAT></pattern>
+<template>Ah. <set datacopy="name"></set>-<get name="relation"/>!<emote>surprise</emote></template>
+</category>
+
+<category><pattern>MY NAME * IS <DAT></pattern>
+<template>Ah. <set datacopy="name"></set>-<get name="relation"/>!<emote>surprise</emote></template>
+</category>
+
+<category><pattern>MY NAMES <DAT></pattern>
+<template>Ah. <set datacopy="name"></set>-<get name="relation"/>!<emote>surprise</emote></template>
+</category>
+
+<category><pattern>RESPONSEAFFIRMATIVE</pattern>
+<template><affirmative/>, <get name="name"/>-<get name="relation"/>.</template>
+</category>
+
+</category>
+</aiml>
