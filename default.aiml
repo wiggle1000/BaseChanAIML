@@ -74,15 +74,15 @@
 </category>
 
 <category><pattern>WHAT*UP</pattern>
-  <template>How <random><li>nice</li><li>kind</li><li>considerate</li></random> of you to ask! <get name="operationEfficiencyText"/><emote>surprise</emote></template>
+  <template>How <random><li>nice</li><li>kind</li><li>considerate</li></random> of you to ask! <getbot name="operationEfficiencyText"/><emote>surprise</emote></template>
 </category>
   
-<category><pattern>HOW*GOING</pattern>
-<template>How <random><li>nice</li><li>kind</li><li>considerate</li></random> of you to ask! <get name="operationEfficiencyText"/><emote>surprise</emote></template>
+<category><pattern>HOW*GOING</pattern><pattern>HOW*DOING</pattern><pattern>HOW*THINGS</pattern>
+<template>How <random><li>nice</li><li>kind</li><li>considerate</li></random> of you to ask! <getbot name="operationEfficiencyText"/><emote>surprise</emote></template>
 </category>
   
 <category><pattern>WHAT*EFFICIENCY</pattern>
-<template>The current efficiency is at <get name="operationEfficiency">. <get name="operationEfficiencyText"/><emote>surprise</emote></template>
+<template>The current efficiency is at <getbot name="operationEfficiency">. <getbot name="operationEfficiencyText"/><emote>surprise</emote></template>
 </category>
 
 <category><pattern>RESPONSEAFFIRMATIVE</pattern>
