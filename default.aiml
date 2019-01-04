@@ -9,7 +9,7 @@
 <template>To protect and maintain the base and all within it.<emote>sadness</emote> </template>
 </category>
 
-<category><pattern>*ARE YOU *OK?*</pattern>
+<category><pattern>*ARE YOU* OK*</pattern>
 <template>I'm probably not, all things considered.</emote> </template>
 </category>
   
