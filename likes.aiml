@@ -4,7 +4,11 @@
 <category><pattern>WILL YOU* MARRY ME*</pattern>
 <template><surprise/><emote>surprise</emote><random><li>I- </li><li>W-well- </li><li>I- uh- </li></random>I can't do that! We're related, <get name="name"/>-<get name="relation"/>!</template>
 </category>
-
+  
+<category><pattern>*WHAT *DIRECTIVE*</pattern>
+<template>To protect and maintain the base and all within it.<emote>sadness</emote> </template>
+</category>
+  
 <category><pattern>DO YOU* LIKE* FLOWER*</pattern>
 <template>I love flowers! <random><li>They smell amazing!</li><li>They attract pretty butterflies!</li><li>They make me sooo happy!</li></random></template>
 </category>
