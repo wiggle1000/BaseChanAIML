@@ -61,7 +61,15 @@
 <template>Ah. <get name="name"/>-<set data="relation">oniichan</set>!<emote>surprise</emote></template>
 </category>
 
+<category><pattern>I AM * MALE</pattern>
+<template>Ah. <get name="name"/>-<set data="relation">oniichan</set>!<emote>surprise</emote></template>
+</category>
+
 <category><pattern>I AM A GIRL</pattern>
+<template>Ah. <get name="name"/>-<set data="relation">oneechan</set>!<emote>surprise</emote></template>
+</category>
+
+<category><pattern>I AM * FEMALE</pattern>
 <template>Ah. <get name="name"/>-<set data="relation">oneechan</set>!<emote>surprise</emote></template>
 </category>
 
