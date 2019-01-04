@@ -2,7 +2,11 @@
 <aiml version="1.0">
 
 <category><pattern>SELF DESTRUCT</pattern>
-<template><get name="name"/>-<get name="relation"/>! I'm sorry if I angered you...<emote>sadness</emote> </template>
+<template>I can't do that, <get name="name"/>-<get name="relation"/>! I'm sorry if I angered you... that's against my prime directive.<emote>sadness</emote> </template>
+</category>
+  
+<category><pattern>*WHAT IS *PRIME DIRECTIVE*</pattern>
+<template>To protect and maintain the base and all within it.<emote>sadness</emote> </template>
 </category>
   
 <category><pattern>HELLO *</pattern>
