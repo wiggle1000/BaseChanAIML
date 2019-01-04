@@ -20,6 +20,14 @@
 <category><pattern>HI *</pattern>
 <template><random><li>Hello</li><li>Hi</li></random>, <get name="name"/>-<get name="relation"/>.<emote>excitement</emote></template>
 </category>
+  
+<category><pattern>GREETINGS *</pattern>
+<template><random><li>Hello</li><li>Hi</li></random>, <get name="name"/>-<get name="relation"/>.<emote>excitement</emote></template>
+</category>
+
+<category><pattern>HOLA *</pattern>
+<template><random><li>Hello</li><li>Hi</li></random>, <get name="name"/>-<get name="relation"/>.<emote>excitement</emote></template>
+</category>
 
 <category><pattern>HELLO</pattern>
 <template>Hey, <get name="name"/>-<get name="relation"/>.<emote>excitement</emote></template>
@@ -32,6 +40,7 @@
 <category><pattern>I AM HOME</pattern>
 <template>Okaeri, <get name="name"/>-<get name="relation"/>!<emote>excitement</emote></template>
 </category>
+  
 <category><pattern>WHAT*YOU* NAME</pattern>
 <template>My name is <get name="myname"/>!<emote>excitement</emote></template>
 </category>
@@ -58,6 +67,10 @@
 
 <category><pattern>MY NAMES <DAT></pattern>
 <template>Ah. <set datacopy="name"></set>-<get name="relation"/>!<emote>surprise</emote></template>
+</category>
+  
+<category><pattern>WHO * MADE YOU</pattern>
+<template>Both my scripts and my language database were created by <get name="botmaster"/>!<emote>surprise</emote></template>
 </category>
 
 <category><pattern>RESPONSEAFFIRMATIVE</pattern>
