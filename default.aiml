@@ -86,7 +86,7 @@
 </category>
   
 <category><pattern>WHAT*EFFICIENCY</pattern>
-<template>The current efficiency is at <getbot name="operationEfficiency">. <getbot name="operationEfficiencyText"/><emote>surprise</emote></template>
+<template>The current efficiency is at <getbot name="operationEfficiency"/>. <getbot name="operationEfficiencyText"/><emote>surprise</emote></template>
 </category>
 
 <category><pattern>RESPONSEAFFIRMATIVE</pattern>
