@@ -73,6 +73,10 @@
 <template>Both my scripts and my language database were created by <get name="botmaster"/>!<emote>surprise</emote></template>
 </category>
 
+<category><pattern>WHAT*UP</pattern>
+  <template>How <random><li>nice</li><li>kind</li><li>considerate</li></random> of you to ask! I'm doing well. I'm keeping all operations within specification!<emote>surprise</emote></template>
+</category>
+  
 <category><pattern>RESPONSEAFFIRMATIVE</pattern>
 <template><affirmative/>, <get name="name"/>-<get name="relation"/>.</template>
 </category>
