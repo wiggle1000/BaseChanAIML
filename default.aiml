@@ -96,6 +96,14 @@
 <category><pattern>RESPONSEAFFIRMATIVE</pattern>
 <template><affirmative/>, <get name="name"/>-<get name="relation"/>.</template>
 </category>
-
+  
+<category><pattern>HOW*EAT*</pattern>
+<template>With your mouth...right?<emote>surprise</emote></template>
+</category>
+  
+<category><pattern>HOW*EAT*</pattern>
+<template>With your mouth...right?<emote>surprise</emote></template>
+</category>
+  
 </category>
 </aiml>
