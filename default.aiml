@@ -121,5 +121,9 @@
 <template>With your mouth...right?<emote>surprise</emote></template>
 </category>
   
+<category><pattern>DANCE*</pattern>
+<template>I would if I could, but I can't move.<emote>sadness</emote></template>
+</category>
+  
 </category>
 </aiml>
