@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="1.0">
 
+<category><pattern>SELF DESTRUCT</pattern>
+<template><get name="name"/>-<get name="relation"/>! I'm sorry if I angered you...<emote>sadness</emote> </template>
+</category>
+  
 <category><pattern>HELLO *</pattern>
 <template><random><li>Hello</li><li>Hi</li></random>, <get name="name"/>-<get name="relation"/>.<emote>excitement</emote></template>
 </category>
